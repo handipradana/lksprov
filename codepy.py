@@ -5,7 +5,7 @@ from datetime import datetime
 from decimal import Decimal
 
 mqtt_broker = 'XXXXXXX'  # Alamat broker MQTT
-mqtt_port = 1883  # Port broker MQTT
+mqtt_port = 8883  # Port broker MQTT
 mqtt_topic = 'rumah/+'  # Topik MQTT, menggunakan wildcard '+' untuk menerima semua subtopik yang dimulai dengan 'rumah/'
 
 aws_access_key = 'XXXXXXXXXXXXXX'  # Kunci akses AWS Anda
