@@ -3,14 +3,14 @@
 #include <DHT.h>
 
 // Konfigurasi WiFi
-const char* ssid = "SERVER 00";
-const char* password = "Bismillah99";
+const char* ssid = "XXXXXXXXXX";
+const char* password = "XXXXXXXX";
 
 // Konfigurasi MQTT
-const char* mqtt_server = "35.86.171.0";
-const int mqtt_port = 1883;
-const char* mqtt_username = "pradana";
-const char* mqtt_password = "123456";
+const char* mqtt_server = "XXXXXXXX";
+const int mqtt_port = 8883;
+const char* mqtt_username = "XXXXXXXX";
+const char* mqtt_password = "XXXXXXXX";
 const char* mqtt_topic = "rumah/dht22";
 
 // Konfigurasi DHT
