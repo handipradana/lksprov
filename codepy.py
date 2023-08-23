@@ -9,7 +9,7 @@ import os
 load_dotenv()  # Memuat nilai-nilai dari berkas .env ke dalam lingkungan
 
 mqtt_broker = os.getenv('MQTT_BROKER')
-mqtt_port = int(os.getenv('MQTT_PORT'))
+mqtt_port = int(os.getenv('MQTT_PORT')
 mqtt_topic = os.getenv('MQTT_TOPIC')
 aws_access_key = os.getenv('AWS_ACCESS_KEY')
 aws_secret_key = os.getenv('AWS_SECRET_KEY')
